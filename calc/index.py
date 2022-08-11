@@ -33,8 +33,8 @@ def inicia_programa():
     oper = int(input("| Operacao escolhida: "))
     print("+--------------------------------------------------------+")
     executa_operacao(oper)
-
     print("+--------------------------------------------------------+")
+    
     global going
     going = int(input("| Deseja repetir? Sim: 1 / Não: 0 \n >>"))
     if going != 0 and going != 1:
